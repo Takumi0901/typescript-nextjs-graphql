@@ -1,0 +1,35 @@
+{
+  "name": "nextjs-postgres-graphql",
+  "version": "1.0.0",
+  "description": "Boiler plate to get started with nextjs and postgres backed GraphQL server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next src/app",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": ["nextjs", "graphql", "postgres"],
+  "author": "takumi",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "graphql-tag": "^2.10.0",
+    "next": "^7.0.1",
+    "next-apollo": "^2.0.0",
+    "react": "^16.5.2",
+    "react-apollo": "^2.2.4",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@types/next": "^7.0.4",
+    "@types/react": "^16.3.14",
+    "prettier": "1.12.1",
+    "tslint": "^5.8.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "3.6.0",
+    "typescript": "^3.1.6"
+  }
+}
